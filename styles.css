@@ -1,0 +1,240 @@
+body {
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  color: hsl(208, 11%, 55%);
+}
+
+h1, h3, h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: black;
+}
+
+h1 {
+  margin-top: 150px;
+}
+
+a {
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.top-container {
+  background-image: url(images/bg-hero-desktop.svg);
+  background-color: transparent;
+  position: relative;
+  padding: 50px;
+  height: 480px;
+}
+
+.logo1 {
+  position: absolute;
+}
+
+.call-to-action1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  -webkit-border-radius: 55;
+  -moz-border-radius: 55;
+  border-radius: 55px;
+  -webkit-box-shadow: 0px 0px 8px #666666;
+  -moz-box-shadow: 0px 0px 8px #666666;
+  box-shadow: 0px 0px 8px #cccacc;
+  color: #000000;
+  font-size: 14px;
+  background: #ffffff;
+  padding: 10px 50px 10px 50px;
+  border: solid #164563 0px;
+  text-decoration: none;
+  position: absolute;
+  right: 50px;
+}
+
+.call-to-action1:hover {
+  color: black;
+  background: hsl(322, 100%, 66%);
+}
+
+.mockup {
+  width: 45%;
+  margin: 100px 0 0 40px;
+  display: block;
+  position: absolute;
+  right: 50px;
+}
+
+.mockup-text {
+  width: 45%;
+  left: 30px;
+
+}
+
+.call-to-action2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  -webkit-border-radius: 55;
+  -moz-border-radius: 55;
+  border-radius: 55px;
+  -webkit-box-shadow: 0px 0px 8px #666666;
+  -moz-box-shadow: 0px 0px 8px #666666;
+  box-shadow: 0px 0px 8px #cccacc;
+  color: #ffffff;
+  font-size: 14px;
+  background: hsl(322, 100%, 66%);
+  padding: 15px 60px 15px 60px;
+  border: solid #164563 0px;
+  text-decoration: none;
+  position: absolute;
+  margin-top: 15px;
+}
+
+.middle-container {
+  position: relative;
+  padding: 50px 50px 50px 50px;
+}
+
+.grow {
+border: solid #164563 0px;
+-webkit-border-radius: 7;
+-moz-border-radius: 7;
+border-radius: 7px;
+-webkit-box-shadow: 0px 0px 8px #666666;
+-moz-box-shadow: 0px 0px 8px #666666;
+box-shadow: 0px 0px 8px #cccacc;
+width: 1100px;
+height: 370px;
+margin: 50px auto;
+position: relative;
+}
+
+.grow-image {
+  width: 30%;
+  margin: 50px 50px 50px 120px;
+  float: right;
+}
+
+.grow-text {
+width: 45%;
+position: absolute;
+padding: 100px 0 0 100px;
+}
+
+.flowing {
+border: solid #164563 0px;
+-webkit-border-radius: 7;
+-moz-border-radius: 7;
+border-radius: 7px;
+-webkit-box-shadow: 0px 0px 8px #666666;
+-moz-box-shadow: 0px 0px 8px #666666;
+box-shadow: 0px 0px 8px #cccacc;
+width: 1100px;
+height: 370px;
+margin: auto;
+position: relative;
+}
+
+.flowing-image {
+  width: 30%;
+  float: left;
+  margin: 70px 0 0 70px;
+}
+
+.flowing-text {
+width: 45%;
+position: absolute;
+right: 70px;
+top: 100px;
+}
+
+.users {
+border: solid #164563 0px;
+-webkit-border-radius: 7;
+-moz-border-radius: 7;
+border-radius: 7px;
+-webkit-box-shadow: 0px 0px 8px #666666;
+-moz-box-shadow: 0px 0px 8px #666666;
+box-shadow: 0px 0px 8px #cccacc;
+width: 1100px;
+height: 370px;
+margin: 50px auto;
+position: relative;
+}
+
+.users-image {
+  width: 30%;
+  margin: 50px 50px 50px 120px;
+  float: right;
+}
+
+.users-text {
+width: 45%;
+position: absolute;
+margin: 100px 0 0 100px;
+}
+
+.ready {
+border: solid #164563 0px;
+-webkit-border-radius: 7;
+-moz-border-radius: 7;
+border-radius: 7px;
+-webkit-box-shadow: 0px 0px 8px #666666;
+-moz-box-shadow: 0px 0px 8px #666666;
+box-shadow: 0px 0px 8px #cccacc;
+width: 50%;
+position: absolute;
+margin-top: 90px;
+text-align: center;
+padding: 50px 20px;
+line-height: 2;
+left: 300px;
+background-color: white;
+}
+
+.call-to-action3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  -webkit-border-radius: 55;
+  -moz-border-radius: 55;
+  border-radius: 55px;
+  -webkit-box-shadow: 0px 0px 8px #666666;
+  -moz-box-shadow: 0px 0px 8px #666666;
+  box-shadow: 0px 0px 8px #cccacc;
+  color: #ffffff;
+  font-size: 16px;
+  background: hsl(322, 100%, 66%);
+  padding: 22px 85px 22px 85px;
+  border: solid #164563 0px;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+.bottom-container {
+  background-color: hsl(192, 100%, 9%);
+  margin-top: 200px;
+  padding: 100px;
+}
+
+.left-bottom {
+
+}
+
+.logo2 {
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+  margin-bottom: 20px;
+}
+
+.placeholder {
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+  width: 2%;
+  float: left;
+}
+
+.text-place {
+  width: 30%;
+}
